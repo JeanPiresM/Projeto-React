@@ -9,10 +9,15 @@ de uma maneira adaptada.
 
 ##Tela de Login
 
-A tela de login permite que o usuario acesse o Perfil do usuario através de uma verificação utilizando if e else com um email e senha predefinidos, o qual se estiver errado retorna uma mensagem de Erro utilizando um Alert.
+A tela de login permite que o usuario acesse o Perfil do usuario através de uma verificação utilizando if e else com um email e senha pré-definidos, o qual se estiver errado retorna uma mensagem de Erro utilizando um Alert.
 A tela de login também permite que o usuario uma área de cadastro
 O campo de senha tem um botão utilizando um icone de olho que pode mostrar e esconder a senha.
 A tela de login possui um botão de recuperar a conta, este botão é estatico e não apresenta funcionalidade real.
+
+e-mail pré-definido: jeanpires@email.con
+
+senha pré-definida: 18122003
+
 ![Tela de Login](https://github.com/JeanPiresM/Projeto-React/blob/main/WhatsApp%20Image%202024-05-02%20at%2015.10.03.jpeg
 )
 
