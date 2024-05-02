@@ -1,6 +1,6 @@
 import { createStackNavigator } from '@react-navigation/stack'
 import LoginScreen from '../screens/LoginScreen';
-import CadastroScreen from '../screens/RegisterScreen';
+import CadastroScreen from '../screens/CadastroScreen';
 import TopTabsRoutes from './TopTabs.routes';
 
 const { Navigator, Screen } = createStackNavigator();

@@ -21,7 +21,7 @@ export default LoginScreen = ({ navigation }) => {
   };
 
   const verifLogin = () => {
-    if (email == "jeanpiresms@hotmail.com" && senha == "18122003") {
+    if (email == "jeanpires@email.com" && senha == "18122003") {
       navigation.navigate("Tabs");
     } else {
       Alert.alert("Erro ", "Verfique se as informações estão corretas");
@@ -51,7 +51,7 @@ export default LoginScreen = ({ navigation }) => {
         </TouchableOpacity>
       </View>
       <TouchableOpacity style={{marginTop: 10}}>
-        <Text style={{color: "white"}}>Forgot the Passoword?</Text>
+        <Text style={{color: "white"}}>Esqueceu a Senha?</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={[styles.containerBotao, styles.botaoLogin]}
@@ -63,7 +63,7 @@ export default LoginScreen = ({ navigation }) => {
         style={[styles.containerBotao, styles.botaoCadastro]}
         onPress={() => navigation.navigate("Register")}
       >
-        <Text style={styles.texto}>You don't have a account? Register</Text>
+        <Text style={styles.texto}>Não tem uma conta? Cadastre-se</Text>
       </TouchableOpacity>
     </View>
   );

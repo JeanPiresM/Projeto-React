@@ -2,7 +2,7 @@ import { Alert, Button, StyleSheet, Text, TextInput, TouchableOpacity, View } fr
 import { Entypo } from "@expo/vector-icons";
 import { useState } from "react";
 
-export default RegisterScreen = ({ navigation }) => {
+export default CadastroScreen = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
   const [senhaInput2, setSenhaInput2] = useState("");
@@ -51,7 +51,7 @@ export default RegisterScreen = ({ navigation }) => {
         />
       </View>
       <TouchableOpacity style={styles.containerBotao} onPress={cadastrar} >
-        <Text style={styles.texto}>Register</Text>
+        <Text style={styles.texto}>Cadastrar</Text>
       </TouchableOpacity>
     </View>
   );

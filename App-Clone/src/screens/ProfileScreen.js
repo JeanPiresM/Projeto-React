@@ -8,7 +8,7 @@ export default ProfileScreen = () => {
       <View style={styles.containerCapa}>
         <Image
           style={styles.image}
-          source={require("../../assets/usuario.png")}
+          source={require("../../assets/fotocapa.jpg")}
         />
       </View>
 
@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
   botao: {
     borderWidth: 2,
     borderRadius: 5,
-    width: "80%",
+    width: "90%",
     height: 50,
     alignItems: "center",
     justifyContent: "space-evenly",
